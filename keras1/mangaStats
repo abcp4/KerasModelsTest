@@ -1,0 +1,16 @@
+#vgg16
+3178/3177 [==============================] - 1832s - loss: 0.0357 - acc: 0.9883 - val_loss: 1.1452 - val_acc: 0.7936
+
+classification report: 
+              precision    recall  f1-score   support
+
+class female       0.80      0.59      0.68      8542
+  class male       0.77      0.91      0.84     13250
+
+ avg / total       0.79      0.78      0.78     21792
+
+Precisions: 
+0.78906434175
+0.783085535977
+0.786008074912
+

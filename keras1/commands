@@ -1,0 +1,5 @@
+python predict.py --model vgg16 --batch_size 16 --path data/sorted/test/3/
+python train.py --model vgg16 --nb_epoch 1 --batch_size 16 --freeze_layers_number 13
+
+python run.py --data_dir data/sorted --model inception_v3 --nb_epoch 10 --batch_size 16 --freeze_layers_number 10 
+

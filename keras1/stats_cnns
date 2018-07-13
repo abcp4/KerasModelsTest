@@ -1,0 +1,127 @@
+#resnet50 oz
+classification report: 
+             precision    recall  f1-score   support
+
+    class 1       0.52      0.47      0.50       393
+    class 2       0.91      0.88      0.89      2637
+    class 3       0.87      0.85      0.86       852
+    class W       0.84      0.91      0.87      1127
+    class R       0.85      0.88      0.86       703
+
+avg / total       0.85      0.85      0.85      5712
+
+Precisions: 
+0.796051049948
+0.854691876751
+0.853701636215
+
+#vgg16
+classification report: 
+             precision    recall  f1-score   support
+
+    class 1       0.55      0.56      0.56       392
+    class 2       0.89      0.91      0.90      2638
+    class 3       0.88      0.82      0.85       851
+    class W       0.89      0.90      0.89      1129
+    class R       0.90      0.86      0.88       702
+
+avg / total       0.87      0.87      0.87      5712
+
+Precisions: 
+0.821167131011
+0.866596638655
+0.866780446617
+
+#inception v3
+1669/1669 [==============================] - 1716s - loss: 0.3483 - acc: 0.8868 - val_loss: 0.3382 - val_acc: 0.8726
+
+
+classification report: 
+             precision    recall  f1-score   support
+
+    class 1       0.63      0.51      0.56       393
+    class 2       0.91      0.90      0.90      2638
+    class 3       0.81      0.91      0.85       849
+    class W       0.88      0.91      0.89      1131
+    class R       0.94      0.88      0.91       701
+
+avg / total       0.87      0.87      0.87      5712
+
+Precisions: 
+0.832359066453
+0.872549019608
+0.871224053505
+
+
+#new data
+
+vgg16
+classification report: 
+             precision    recall  f1-score   support
+
+    class 1       0.43      0.42      0.43      1020
+    class 2       0.75      0.86      0.80      3625
+    class 3       0.80      0.70      0.74      1455
+    class W       0.85      0.67      0.75      1751
+    class R       0.72      0.75      0.73      1173
+
+avg / total       0.74      0.73      0.73      9024
+
+Precisions: 
+0.709064569222
+0.732380319149
+0.736846539585
+
+resnet
+classification report: 
+             precision    recall  f1-score   support
+
+    class 1       0.53      0.26      0.35      1020
+    class 2       0.82      0.74      0.78      3622
+    class 3       0.79      0.79      0.79      1456
+    class W       0.64      0.80      0.71      1752
+    class R       0.66      0.92      0.77      1174
+
+avg / total       0.73      0.73      0.72      9024
+
+Precisions: 
+0.689032177462
+0.72850177305
+0.728614615815
+
+#incv v3
+classification report: 
+             precision    recall  f1-score   support
+
+    class 1       0.54      0.25      0.34      1022
+    class 2       0.82      0.66      0.74      3621
+    class 3       0.59      0.83      0.69      1455
+    class W       0.66      0.78      0.72      1754
+    class R       0.68      0.89      0.77      1172
+
+avg / total       0.70      0.70      0.68      9024
+
+Precisions: 
+0.660141679025
+0.695035460993
+0.704301450184
+
+
+
+#100 first edfs from sleep data / Inception v3, 20 epoch, train/test/valid
+
+classification report: 
+             precision    recall  f1-score   support
+
+    class 1       0.40      0.44      0.42       487
+    class 2       0.89      0.80      0.84      5679
+    class 3       0.69      0.91      0.79      1876
+    class W       0.83      0.87      0.85      1737
+    class R       0.95      0.92      0.94      4685
+
+avg / total       0.86      0.85      0.85     14464
+
+Precisions: 
+0.752398780957
+0.849350110619
+0.859428483487

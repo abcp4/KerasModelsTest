@@ -36,4 +36,4 @@ class VGGFACE(BaseModel):
 
 
 def inst_class(*args, **kwargs):
-    return VGG16(*args, **kwargs)
+    return VGGFACE(*args, **kwargs)

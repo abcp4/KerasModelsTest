@@ -5,7 +5,7 @@ abspath = os.path.dirname(os.path.abspath(__file__))
 
 lock_file = os.path.join(abspath, 'lock')
 
-data_dir = join_path(abspath, 'data/sorted')
+data_dir = join_path(abspath, 'data/age_mangas')
 trained_dir = join_path(abspath, 'trained')
 
 train_dir, validation_dir = None, None
@@ -15,6 +15,7 @@ MODEL_INCEPTION_V3 = 'inception_v3'
 MODEL_RESNET50 = 'resnet50'
 MODEL_RESNET152 = 'resnet152'
 MODEL_CNN = 'cnn'
+MODEL_VGGFACE = 'vggFace'
 
 
 model = MODEL_RESNET50
